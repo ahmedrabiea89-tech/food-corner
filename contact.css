@@ -1,0 +1,235 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Basic settings */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* 3. Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 4. Form elements */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    max-width: 100%;
+}
+
+/* 5. Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 6. Containers */
+.container {
+    width: min(100% - 32px, 1200px);
+    margin-inline: auto;
+}
+*{
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+
+}
+body { 
+background-image: url(images/call.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+.img1 {
+    display: inline;
+    width: 30px;
+    margin-bottom: -35px;
+    margin-right: 10px;
+    margin-left: 13px;
+    height: 70px;
+}
+
+.x{
+    transform: translateY(15px);
+    color: rgba(229, 255, 0, 0.473);
+    margin-bottom: -10px;
+    text-shadow: 0 0 5px orange;
+    
+}
+.x2{
+    transform: translateY(15px);
+    color: rgba(229, 255, 0, 0.473);
+    margin-top: -12px;
+    margin-left: 52px;
+    text-shadow:  0 0 5px orange;
+}
+.btn {
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+    transform:translateY(-60px);
+    flex-wrap: wrap;
+    padding-left: 20%;
+}
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    padding: 9px;
+    background-color:chocolate ;
+    border-radius:20px;
+    border: 1px;
+    letter-spacing: 4px;
+    background: none;
+    font-size: 20px;
+}
+.btn1 a,
+.btn2 a,
+.btn3 a,
+.btn4 a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 10px;
+    transition: 0.3 ease;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+    color: rgb(241, 81, 22);
+    text-decoration:underline;
+    text-decoration-color:rgba(255, 255, 0, 0.253) ;
+    text-decoration-thickness:4px ;
+    text-underline-offset:10px ;
+    text-decoration-style:inherit;
+    text-shadow: 0 0 16px rgba(125, 151, 6, 0.637);
+    transform: translateX(-1.5px); 
+}
+.call{
+    padding-left: 2.5%;
+    color: chocolate;
+}
+.num {
+    display: inline;
+    width: 30px;
+    margin-bottom: -35px;
+    margin-right: 10px;
+    margin-left: 13px;
+    height: 40px;
+}
+.smile {
+    display: inline;
+    width: 30px;
+    margin-bottom: -15px;
+    margin-right: 10px;
+    margin-left: 13px;
+    height: 40px;
+
+}
+.serve {
+transform:translateY(-80px);
+color: rgba(4, 5, 0, 0.623);
+text-align: right;
+padding-top: 10px;
+text-shadow: 0 0 5px whitesmoke;
+}
+.number{
+    color: chocolate;
+    border: 20px;
+    border-radius: 10px;
+    font-size: medium;
+    margin-bottom: 13px;
+    font-size: larger;
+}
+.number2 {
+    
+    color: chocolate;
+    border: 20px;
+    border-radius: 10px;
+    font-size: medium;
+    padding-left: 6%;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+.card {
+    width: 900px;
+    height: 600px;
+    background-color:initial;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    margin-left: 400px;
+}
+hr {
+    width: 70%;
+    height: 2px;
+    margin-left: 13%;
+    margin-bottom: 30px;
+    background-color: rgba(2, 2, 0, 0.788);
+    border: none;
+    box-shadow: 0 0 5px rgba(255, 255, 0, 0.575);
+}
+form {
+    display:inline;
+}
+.email {
+    padding-left: 190px;
+}
+.option {
+    display:block;
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 40px;
+}
+input {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    background-color:rgb(26, 37, 37);
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.I1 {
+    
+    transform: translateX(18px);
+}
+.I2 {
+    
+    transform: translateX(37px);
+}
+.I3 {
+    width: 70%;
+    height: 60px;
+    margin-top: 30px;
+    transform: translateX(18px);
+}
+textarea {
+    display:inline-block;
+    resize: none;
+    width: 100%;
+    height: 40%;
+    margin-top: 20px;
+    background-color:rgb(26, 37, 37) ;
+    border: 2px solid  gray;
+    border-radius: 8px;
+}

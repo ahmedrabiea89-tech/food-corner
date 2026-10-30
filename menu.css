@@ -1,0 +1,220 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Basic settings */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* 3. Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 4. Form elements */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    max-width: 100%;
+}
+
+/* 5. Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 6. Containers */
+.container {
+    width: min(100% - 32px, 1200px);
+    margin-inline: auto;
+}
+*{
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+
+}
+body { 
+background-image: url(images/pizza1.png);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+.img1 {
+    display: inline;
+    width: 30px;
+    margin-bottom: -35px;
+    margin-right: 10px;
+    margin-left: 13px;
+    height: 70px;
+}
+
+.x{
+    transform: translateY(15px);
+    color: rgba(229, 255, 0, 0.473);
+    margin-bottom: -10px;
+    text-shadow: 0 0 5px orange;
+    
+}
+.x2{
+    transform: translateY(15px);
+    color: rgba(229, 255, 0, 0.473);
+    margin-top: -12px;
+    margin-left: 52px;
+    text-shadow:  0 0 5px orange;
+}
+.btn {
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+    transform:translateY(-60px);
+    flex-wrap: wrap;
+    padding-left: 20%;
+}
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    padding: 9px;
+    background-color:chocolate ;
+    border-radius:20px;
+    border: 1px;
+    letter-spacing: 4px;
+    background: none;
+    font-size: 20px;
+}
+.btn1 a,
+.btn2 a,
+.btn3 a,
+.btn4 a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 10px;
+    transition: 0.3 ease;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+    color: rgb(241, 81, 22);
+    text-decoration:underline;
+    text-decoration-color:rgba(255, 255, 0, 0.253) ;
+    text-decoration-thickness:4px ;
+    text-underline-offset:10px ;
+    text-decoration-style:inherit;
+    text-shadow: 0 0 16px rgba(125, 151, 6, 0.637);
+    transform: translateX(-1.5px); 
+}
+.container {
+    display: flex;
+    justify-content:space-between;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+.card1 {
+    text-align: center;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+}
+.card1 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card1 button {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card2 {
+    text-align: center;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+}
+.card2 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card2 button {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card3 {
+    text-align: center;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+}
+.card3 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card3 button {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card4 {
+    text-align: center;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+}
+.card4 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card4 button {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+} 

@@ -1,0 +1,197 @@
+/* 1. Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Basic settings */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* 3. Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 4. Form elements */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    max-width: 100%;
+}
+
+/* 5. Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 6. Containers */
+.container {
+    width: min(100% - 32px, 1200px);
+    margin-inline: auto;
+}
+*{
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+
+}
+body { 
+background-image: url(images/burger.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+.img1 {
+    display: inline;
+    width: 30px;
+    margin-bottom: -35px;
+    margin-right: 10px;
+    margin-left: 13px;
+    height: 70px;
+}
+
+.x{
+    transform: translateY(15px);
+    color: rgba(229, 255, 0, 0.473);
+    margin-bottom: -10px;
+    text-shadow: 0 0 5px orange;
+    
+}
+.x2{
+    transform: translateY(15px);
+    color: rgba(229, 255, 0, 0.473);
+    margin-top: -12px;
+    margin-left: 52px;
+    text-shadow:  0 0 5px orange;
+}
+.btn {
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+    transform:translateY(-60px);
+    flex-wrap: wrap;
+    padding-left: 20%;
+}
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    padding: 9px;
+    background-color:chocolate ;
+    border-radius:20px;
+    border: 1px;
+    letter-spacing: 4px;
+    background: none;
+    font-size: 20px;
+}
+.btn1 a,
+.btn2 a,
+.btn3 a,
+.btn4 a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 10px;
+    transition: 0.3 ease;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+    color: rgb(241, 81, 22);
+    text-decoration:underline;
+    text-decoration-color:rgba(255, 255, 0, 0.253) ;
+    text-decoration-thickness:4px ;
+    text-underline-offset:10px ;
+    text-decoration-style:inherit;
+    text-shadow: 0 0 16px rgba(125, 151, 6, 0.637);
+    transform: translateX(-1.5px);
+}
+.hero1 {
+color: rgba(238, 51, 4, 0.747);
+text-shadow: 0 0 5px rgba(238, 51, 4, 0.747);
+line-height: 1.2;
+word-spacing: 6px;
+text-align:center;
+font-size:40px;
+margin-top: 80px;
+padding-right: 85%;
+font-style:italic;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+span {
+    display: block;
+    padding-right: 10%;
+}
+.spn1 {
+    color: rgba(248, 190, 81, 0.884);
+    padding-left: 40%;
+    text-shadow: 0 0 5px rgba(248, 190, 81, 0.884);
+}
+.spn2 {
+    color: rgba(200, 255, 0, 0.863);
+    padding-left: 40%;
+    text-shadow: 0 0 5px chocolate;
+}
+p {
+    padding: 20px 0 0 140px;
+    color:rgb(215, 236, 92);
+    transform: translateY(130px);
+    font-size:24px;
+    line-height: 2;
+    text-shadow: 0 0 10px tan;
+}
+.p {
+    padding-left: 7%;
+    color:rgb(215, 236, 92);
+}
+.pp {
+    color:rgb(215, 236, 92);
+    transform: translateX(-48px);
+}
+.hero2 {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    transform: translateY(300px);
+    padding-left: 15%;
+}
+.btn5,
+.btn6 {
+    color: rgb(236, 233, 232);
+    background-color:inherit;
+    padding:8px 24px 8px 24px ;
+    border-width: 1px;
+    border-color: rgba(122, 104, 3, 0.37);
+    border-style:solid;
+    border-radius: 9px;
+}
+.btn5 {
+    background-color: rgba(210, 105, 30, 0.89);
+}
+footer  {
+    text-align:right;
+    padding-right: 20px;
+    padding-top: 30%;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 0 0 18px royalblue;
+}
